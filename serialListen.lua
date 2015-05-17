@@ -41,7 +41,7 @@ end
 print("Ports have been opened. Awaiting message...")
 
 local _,_, from, port, _, message = event.pull("modem_message")
-print("Got a message from" ..from.. "on port" ..port..". Parsing message data now...")
+print("Got a message from" ..from.. " on port" ..port..". Parsing message data now...")
 local messagestr = serial.unserialize(message)
 print("Message parsed. Displaying results now: ")
 print(messagestr)
