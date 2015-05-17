@@ -8,3 +8,5 @@ files will be placed in the current working directory, unless you specify it to 
 wget 'full URL path' /dir/dir/dir/filename
 
 The Computer requires an Internet card installed in order to download the file
+
+Feel free to use these programs at will, just don't take credit for creating them, please.
